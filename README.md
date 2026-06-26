@@ -1,6 +1,8 @@
 # hardware-ecommerce-js
 Este proyecto es la entrega final correspondiente al curso certificado de Front-End JS del programa Talento Tech. Consiste en el desarrollo de un e-commerce funcional para la venta de componentes de hardware, enfocado en la manipulación dinámica del DOM y la gestión de estados.
 
+[🌐 Haz clic aquí para ver el proyecto](https://alexisrodriguezar.github.io/hardware-ecommerce-js/)
+
 ## 🚀 Descripción del Proyecto
 La aplicación permite a los usuarios visualizar un catálogo de productos, gestionar un carrito de compras y persistir la información de manera local. El proyecto fue diseñado priorizando la modularidad del código y una experiencia de usuario fluida y responsiva.
 
