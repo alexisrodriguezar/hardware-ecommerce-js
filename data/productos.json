@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gigabyte RTX 4060 Windforce 8GB",
+    "precio": "1.490.000",
+    "img": "img/placa-de-video.jpg",
+    "descripcion": "Arquitectura de última generación para gaming fluido en 1080p. Incluye tecnología DLSS 3 y refrigeración dual."
+  },
+  {
+    "id": 2,
+    "nombre": "NZXT H5 Flow White Mid-Tower",
+    "precio": "736.000",
+    "img": "img/gabinete.jpg",
+    "descripcion": "Chasis Mid-Tower con panel frontal perforado para máxima ventilación. Diseño elegante con gestión de cables optimizada."
+  },
+  {
+    "id": 3,
+    "nombre": "Logitech G Pro X Headset 7.1",
+    "precio": "245.000",
+    "img": "img/auriculares.jpg",
+    "descripcion": "Sonido envolvente 7.1 para escuchar cada detalle en la partida. Micrófono Blue VO!CE de calidad profesional."
+  },
+  {
+    "id": 4,
+    "nombre": "Samsung Odyssey G4",
+    "precio": "620.000",
+    "img": "img/monitor.jpg",
+    "descripcion": "Panel IPS con tasa de refresco ultrarrápida de 240Hz. Tiempo de respuesta de 1ms para acción fluida."
+  },
+  {
+    "id": 5,
+    "nombre": "Razer Deathadder V3 Pro Wireless",
+    "precio": "175.000",
+    "img": "img/mouse.jpg",
+    "descripcion": " Diseño inalámbrico ultraligero de solo 63 gramos para eSports. Sensor óptico Focus Pro 30K de extrema precisión."
+  },
+  {
+    "id": 6,
+    "nombre": ">MSI Pro B760M-E DDR4 LGA 1700",
+    "precio": "155.000",
+    "img": "img/motherboard.jpg",
+    "descripcion": "Placa base Micro-ATX para procesadores Intel de 12ª y 13ª Gen. Soporta memoria DDR4 y ranura PCIe 4.0."
+  }
+]

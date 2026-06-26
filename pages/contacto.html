@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Hardware RDZ</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="../index.html">
+          <img src="../img/logo.jpg" alt="Logo Hardware RDZ" class="logo" />
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              <img
+                src="../img/carrito-blanco.png"
+                alt="Ícono de carrito"
+                class="icono-carrito-img"
+              />
+              <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+      <p class="parrafo">
+        Dejanos tu consulta y te ayudamos a armar tu setup ideal
+      </p>
+
+      <form
+        action="https://formspree.io/f/mojryqll"
+        method="POST"
+        class="form-contacto"
+      >
+        <div class="grupo-input">
+          <label for="nombre">Nombre completo:</label>
+          <input id="nombre" type="text" name="nombre" required />
+        </div>
+
+        <div class="grupo-input">
+          <label for="email">Correo electrónico:</label>
+          <input id="email" type="email" name="email" required />
+        </div>
+
+        <div class="grupo-input">
+          <label for="mensaje">Tu consulta:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+
+        <button class="btn bg-secondary" type="submit">Enviar consulta</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Sitio realizado por Alexis Rodriguez</p>
+      <nav>
+        <ul class="footer-list">
+          <li>
+            <a href="#!"
+              ><img src="../img/whatsapp.png" alt="logo de whatsapp"
+            /></a>
+          </li>
+          <li>
+            <a href="#!"
+              ><img src="../img/instagram.png" alt="logo de instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="#!"><img src="../img/x.png" alt="logo de x" /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="module" src="../js/contacto.js"></script>
+  </body>
+</html>
